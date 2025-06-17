@@ -1,0 +1,106 @@
+{
+  "uuid": "75f36717-53b7-46c2-859b-d28ddefb654e",
+  "historyId": "39e3abe16d8598102031866c3ff05489",
+  "testCaseId": "86479744adf64b8e87a1e003d84b32ed",
+  "fullName": "reqnroll-c#-bdd/Features/: My Info Feature/User can update their dob",
+  "labels": [
+    {
+      "name": "host",
+      "value": "TEST-V-ADV-01-I"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.: My Info Feature"
+    },
+    {
+      "name": "feature",
+      "value": ": My Info Feature"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    }
+  ],
+  "links": [],
+  "name": "User can update their dob",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given the user is logged into the app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750163359791,
+      "stop": 1750163363376
+    },
+    {
+      "name": "When the user updates their date of birth",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750163363378,
+      "stop": 1750163367089
+    },
+    {
+      "name": "When the user clicks on the save button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750163367090,
+      "stop": 1750163378760
+    },
+    {
+      "name": "Then the new date of birth should be saved successfully",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750163378761,
+      "stop": 1750163378771
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1750163359786,
+  "stop": 1750163378774
+}

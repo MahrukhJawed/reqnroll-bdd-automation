@@ -13,6 +13,16 @@
     <SourceRoot Include="C:\Users\m.jawed-ad\.nuget\packages\" />
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Content Include="$(NuGetPackageRoot)allure.reqnroll\2.12.1\contentFiles\any\netstandard2.0\allureConfig.Template.json" Condition="Exists('$(NuGetPackageRoot)allure.reqnroll\2.12.1\contentFiles\any\netstandard2.0\allureConfig.Template.json')">
+      <NuGetPackageId>Allure.Reqnroll</NuGetPackageId>
+      <NuGetPackageVersion>2.12.1</NuGetPackageVersion>
+      <NuGetItemType>Content</NuGetItemType>
+      <Pack>false</Pack>
+      <Private>False</Private>
+      <Link>allureConfig.Template.json</Link>
+    </Content>
+  </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)reqnroll.tools.msbuild.generation\2.4.1\build\Reqnroll.Tools.MsBuild.Generation.props" Condition="Exists('$(NuGetPackageRoot)reqnroll.tools.msbuild.generation\2.4.1\build\Reqnroll.Tools.MsBuild.Generation.props')" />
     <Import Project="$(NuGetPackageRoot)nunit\3.14.0\build\NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit\3.14.0\build\NUnit.props')" />
@@ -24,5 +34,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgNUnit_Analyzers Condition=" '$(PkgNUnit_Analyzers)' == '' ">C:\Users\m.jawed-ad\.nuget\packages\nunit.analyzers\3.9.0</PkgNUnit_Analyzers>
+    <PkgAspectInjector Condition=" '$(PkgAspectInjector)' == '' ">C:\Users\m.jawed-ad\.nuget\packages\aspectinjector\2.8.1</PkgAspectInjector>
   </PropertyGroup>
 </Project>

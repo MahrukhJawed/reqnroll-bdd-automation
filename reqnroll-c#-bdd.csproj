@@ -11,6 +11,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Allure.Reqnroll" Version="2.12.1" />
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
     <PackageReference Include="Gherkin" Version="32.1.2" />
@@ -32,6 +33,12 @@
   <ItemGroup>
     <Folder Include="Features\" />
     <Folder Include="Objects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="C:\Users\m.jawed-ad\.nuget\packages\allure.reqnroll\2.12.1\contentFiles\any\netstandard2.0\allureConfig.Template.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>

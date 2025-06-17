@@ -1,6 +1,9 @@
 Feature: : Log out Feature
 
-@smoke
+@allure.owner:MahrukhJawed
+@minor
+@regression
+
 Scenario: User can log out of the app
 
 	Given the user is logged into the app

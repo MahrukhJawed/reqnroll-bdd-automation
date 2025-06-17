@@ -104,14 +104,18 @@ namespace reqnroll_c__bdd.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("User can log in with valid credentials")]
+        [NUnit.Framework.CategoryAttribute("allure.owner:MahrukhJawed")]
+        [NUnit.Framework.CategoryAttribute("critical")]
         [NUnit.Framework.CategoryAttribute("smoke")]
         public async global::System.Threading.Tasks.Task UserCanLogInWithValidCredentials()
         {
             string[] tagsOfScenario = new string[] {
+                    "allure.owner:MahrukhJawed",
+                    "critical",
                     "smoke"};
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("User can log in with valid credentials", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 6
+#line 9
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -121,16 +125,16 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 8
+#line 11
   await testRunner.GivenAsync("the user is on the login page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-#line 9
+#line 12
   await testRunner.WhenAsync("the user enters a valid username and password", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
 #line hidden
-#line 10
+#line 13
   await testRunner.AndAsync("the user clicks the login button", ((string)(null)), ((global::Reqnroll.Table)(null)), "And ");
 #line hidden
-#line 11
+#line 14
   await testRunner.ThenAsync("the user should be redirected to the dashboard page", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }

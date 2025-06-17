@@ -51,12 +51,12 @@ namespace reqnroll_c__bdd.Helpers
         internal string GenerateRandomDate()
         {
             DateTime startDate = new DateTime(1950, 1, 1);
-            DateTime endDate = new DateTime(2022, 12, 31);
+            DateTime endDate = new DateTime(2002, 12, 31);
             Random random = new Random();
             int range = (endDate - startDate).Days;
             int randomDays = random.Next(range);
             DateTime randomDate = startDate.AddDays(randomDays);
-            string formattedDate = randomDate.ToString("yyyy-MM-dd");
+            string formattedDate = randomDate.ToString("yyyy-dd-MM");
             return formattedDate;
         }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("reqnroll-c#-bdd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d52665dc0fe3450e3fa3875b457da639f1e4b082")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15a0f94e9e27cd9e44b063253acb0bcb48ebb5ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("reqnroll-c#-bdd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("reqnroll-c#-bdd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
