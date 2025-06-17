@@ -104,14 +104,18 @@ namespace reqnroll_c__bdd.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("User can log out of the app")]
-        [NUnit.Framework.CategoryAttribute("smoke")]
+        [NUnit.Framework.CategoryAttribute("allure.owner:MahrukhJawed")]
+        [NUnit.Framework.CategoryAttribute("minor")]
+        [NUnit.Framework.CategoryAttribute("regression")]
         public async global::System.Threading.Tasks.Task UserCanLogOutOfTheApp()
         {
             string[] tagsOfScenario = new string[] {
-                    "smoke"};
+                    "allure.owner:MahrukhJawed",
+                    "minor",
+                    "regression"};
             global::System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new global::System.Collections.Specialized.OrderedDictionary();
             global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("User can log out of the app", null, tagsOfScenario, argumentsOfScenario, featureTags);
-#line 4
+#line 7
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             if ((global::Reqnroll.TagHelper.ContainsIgnoreTag(scenarioInfo.CombinedTags) || global::Reqnroll.TagHelper.ContainsIgnoreTag(featureTags)))
@@ -121,13 +125,13 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 await this.ScenarioStartAsync();
-#line 6
+#line 9
  await testRunner.GivenAsync("the user is logged into the app", ((string)(null)), ((global::Reqnroll.Table)(null)), "Given ");
 #line hidden
-#line 7
+#line 10
  await testRunner.WhenAsync("the user clicks on the logout button", ((string)(null)), ((global::Reqnroll.Table)(null)), "When ");
 #line hidden
-#line 8
+#line 11
  await testRunner.ThenAsync("the user should be redirected to the login screen", ((string)(null)), ((global::Reqnroll.Table)(null)), "Then ");
 #line hidden
             }

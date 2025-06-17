@@ -42,6 +42,7 @@ namespace reqnroll_c__bdd.StepDefinitions
         {
             infoPageObject.SubmitForm();
             Thread.Sleep(8000);
+            editedDate = infoPageObject.GetDateOfBirth();
         }
 
         [Then("the new date of birth should be saved successfully")]

@@ -1,0 +1,91 @@
+{
+  "uuid": "f881decd-05e2-460c-a65a-8e53685562a9",
+  "historyId": "adee629f75b0c171bc89767fe9ca9f78",
+  "testCaseId": "a4c7f7d02af8d1673c3273563af00a5e",
+  "fullName": "reqnroll-c#-bdd/Features/: Log out Feature/User can log out of the app",
+  "labels": [
+    {
+      "name": "host",
+      "value": "TEST-V-ADV-01-I"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.: Log out Feature"
+    },
+    {
+      "name": "feature",
+      "value": ": Log out Feature"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    }
+  ],
+  "links": [],
+  "name": "User can log out of the app",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given the user is logged into the app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750161651672,
+      "stop": 1750161658407
+    },
+    {
+      "name": "When the user clicks on the logout button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750161658408,
+      "stop": 1750161660332
+    },
+    {
+      "name": "Then the user should be redirected to the login screen",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750161660333,
+      "stop": 1750161660342
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1750161651668,
+  "stop": 1750161660347
+}

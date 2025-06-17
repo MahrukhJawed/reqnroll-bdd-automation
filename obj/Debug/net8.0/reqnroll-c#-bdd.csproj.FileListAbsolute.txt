@@ -235,3 +235,9 @@ C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\obj\Debug\net8.0\refi
 C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\obj\Debug\net8.0\reqnroll-c#-bdd.pdb
 C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\obj\Debug\net8.0\reqnroll-c#-bdd.genruntimeconfig.cache
 C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\obj\Debug\net8.0\ref\reqnroll-c#-bdd.dll
+C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\Allure.Net.Commons.dll
+C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\Allure.ReqnrollPlugin.dll
+C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\AspectInjector.Broker.dll
+C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\MimeTypesMap.dll
+C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\allureConfig.Template.json

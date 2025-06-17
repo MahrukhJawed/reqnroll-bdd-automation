@@ -1,0 +1,27 @@
+{
+  "uuid": "b9db0dcd-0a35-4025-bcd4-0653da43e9f3",
+  "children": [
+    "fe1224a4-b258-4d64-8986-bd4759b1df59"
+  ],
+  "befores": [
+    {
+      "name": "GlobalHooks.InitializeFeature(FeatureContext)",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750162392554,
+      "stop": 1750162392554
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1750162392553,
+  "stop": 1750162402377
+}
