@@ -16,9 +16,9 @@ namespace reqnroll_c__bdd.Helpers
         public  string BaseURL { get; set; }
         public  string Username { get; set; }
         public  string Password { get; set; }
-        public  string EnvironmentFile { get; set; } = @"C:\Users\m.jawed-ad\source\repos\reqnroll-c#-bdd\reqnroll-c#-bdd\resources\environment.properties";
+        public string EnvironmentFile { get; set; } = @"..\..\..\resources\environment.properties";
 
-        private static Setup instance;
+        //private static Setup instance;
         public Setup() {
 
             SetupEnvProperties();
