@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\m.jawed-ad\\source\\repos\\reqnroll-c#-bdd\\reqnroll-c#-bdd\\reqnroll-c#-bdd.csproj": {}
+    "C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\reqnroll-c#-bdd.csproj": {}
   },
   "projects": {
-    "C:\\Users\\m.jawed-ad\\source\\repos\\reqnroll-c#-bdd\\reqnroll-c#-bdd\\reqnroll-c#-bdd.csproj": {
+    "C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\reqnroll-c#-bdd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\m.jawed-ad\\source\\repos\\reqnroll-c#-bdd\\reqnroll-c#-bdd\\reqnroll-c#-bdd.csproj",
+        "projectUniqueName": "C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\reqnroll-c#-bdd.csproj",
         "projectName": "reqnroll-c#-bdd",
-        "projectPath": "C:\\Users\\m.jawed-ad\\source\\repos\\reqnroll-c#-bdd\\reqnroll-c#-bdd\\reqnroll-c#-bdd.csproj",
+        "projectPath": "C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\reqnroll-c#-bdd.csproj",
         "packagesPath": "C:\\Users\\m.jawed-ad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\m.jawed-ad\\source\\repos\\reqnroll-c#-bdd\\reqnroll-c#-bdd\\obj\\",
+        "outputPath": "C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

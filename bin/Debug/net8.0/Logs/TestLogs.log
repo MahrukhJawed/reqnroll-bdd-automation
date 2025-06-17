@@ -1,3 +1,3 @@
-2025-06-17 10:29:01,586 [NonParallelWorker] INFO TestLogger - Setting up the browser...
-2025-06-17 10:29:03,978 [NonParallelWorker] INFO TestLogger - Starting test: UserCanLogInWithValidCredentials
-2025-06-17 10:30:19,920 [NonParallelWorker] INFO TestLogger - Ending test: UserCanLogInWithValidCredentials
+2025-06-17 11:39:02,216 [NonParallelWorker] INFO TestLogger - Setting up the browser...
+2025-06-17 11:39:04,496 [NonParallelWorker] INFO TestLogger - Starting test: UserCanLogInWithValidCredentials
+2025-06-17 11:39:22,867 [NonParallelWorker] INFO TestLogger - Ending test: UserCanLogInWithValidCredentials
