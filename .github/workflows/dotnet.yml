@@ -25,7 +25,15 @@ jobs:
       run: dotnet build --no-restore
 
     - name: Test
-      run: dotnet test --no-build --verbosity normal
+      #run: dotnet test --no-build --verbosity normal
+      run: dotnet test --configuration Debug --logger "console;verbosity=diagnostic"
+
+    - name: Show contents of test output directory
+      if: always()
+      run: |
+        echo "Looking for allure-results..."
+        find reqnroll-bdd-automation -type d
+        find reqnroll-bdd-automation -name "allure-results"
 
     - name: Load Allure test report history
       uses: actions/checkout@v4
