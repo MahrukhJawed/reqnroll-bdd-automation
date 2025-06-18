@@ -25,8 +25,9 @@ jobs:
       run: dotnet build --no-restore
 
     - name: Test
-      #run: dotnet test --no-build --verbosity normal
-      run: dotnet test --configuration Debug --logger "console;verbosity=diagnostic"
+      run: |
+         cd reqnroll-bdd-automation
+         dotnet test --configuration Debug --logger "console;verbosity=diagnostic"
 
     - name: Show contents of test output directory
       if: always()
@@ -46,8 +47,8 @@ jobs:
     - name: Move Allure results to expected directory
       if: always()
       run: |
-        mkdir -p allure-results
-        cp -r reqnroll-bdd-automation/bin/Debug/net8.0/allure-results/* allure-results/ || echo "No files to copy"
+        mkdir -p ../allure-results
+        cp -r bin/Debug/net8.0/allure-results/* ../allure-results/ || echo "No files found"
 
     - name: Build Allure test report
       uses: simple-elf/allure-report-action@master
