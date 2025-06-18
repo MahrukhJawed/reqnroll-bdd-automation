@@ -1,0 +1,121 @@
+{
+  "uuid": "197ae2dd-2b48-4978-8c47-48b5aab4f1e7",
+  "historyId": "c99c9bd6bea700c9ac7f083bd3aed54d",
+  "testCaseId": "74c814603e141e644a88df748c3379c8",
+  "fullName": "reqnroll-c#-bdd/Features/: Login to the app/User can log in with valid credentials",
+  "labels": [
+    {
+      "name": "host",
+      "value": "TEST-V-ADV-01-I"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.: Login to the app"
+    },
+    {
+      "name": "feature",
+      "value": ": Login to the app"
+    },
+    {
+      "name": "owner",
+      "value": "MahrukhJawed"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    }
+  ],
+  "links": [],
+  "name": "User can log in with valid credentials",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Unsupported browser (Parameter 'session not created: This version of ChromeDriver only supports Chrome version 137\nCurrent browser version is 135.0.7049.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)')",
+    "trace": "System.ArgumentException: Unsupported browser (Parameter 'session not created: This version of ChromeDriver only supports Chrome version 137\nCurrent browser version is 135.0.7049.115 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe (SessionNotCreated)')\r\n   at reqnroll_c__bdd.Helpers.BaseHelper.CreateDriver(ILog log, Setup context) in C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\Helpers\\BaseHelper.cs:line 72\r\n   at reqnroll_c__bdd.Hooks.GlobalHooks.InitializeScenario() in C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\Hooks\\GlobalHooks.cs:line 69\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.InvokeHookAsync(IAsyncBindingInvoker invoker, IHookBinding hookBinding, HookType hookType)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.FireEventsAsync(HookType hookType)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.FireEventsAsync(HookType hookType)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.FireScenarioEventsAsync(HookType bindingEvent)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnScenarioStartAsync()\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at reqnroll_c__bdd.Features.LoginToTheAppFeature.ScenarioCleanupAsync()\r\n   at reqnroll_c__bdd.Features.LoginToTheAppFeature.UserCanLogInWithValidCredentials() in C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\Features\\Login.feature:line 14\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given the user is on the login page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750232382322,
+      "stop": 1750232382332
+    },
+    {
+      "name": "When the user enters a valid username and password",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750232382333,
+      "stop": 1750232382334
+    },
+    {
+      "name": "When the user clicks the login button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750232382336,
+      "stop": 1750232382336
+    },
+    {
+      "name": "Then the user should be redirected to the dashboard page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750232382337,
+      "stop": 1750232382337
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1750232382318,
+  "stop": 1750232382346
+}

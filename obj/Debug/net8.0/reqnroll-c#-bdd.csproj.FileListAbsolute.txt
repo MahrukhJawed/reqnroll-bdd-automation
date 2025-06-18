@@ -241,3 +241,4 @@ C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\Aspe
 C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\CsvHelper.dll
 C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\MimeTypesMap.dll
 C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\allureConfig.Template.json
+C:\Users\m.jawed-ad\e2e-automation\reqnroll-bdd-automation\bin\Debug\net8.0\resources\environment.properties

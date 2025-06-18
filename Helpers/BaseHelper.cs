@@ -8,6 +8,7 @@ using reqnroll_c__bdd.Hooks;
 using reqnroll_c__bdd.Pages;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Reflection;
 using System.Text;
@@ -44,11 +45,18 @@ namespace reqnroll_c__bdd.Helpers
                 switch (browser)
                 {
                     case "Chrome":
-                        var driverPath = new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
-
-                        driver = new ChromeDriver(driverPath);
+                        //var driverPath = new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
+                        var driverDir = new DriverManager().SetUpDriver(new ChromeConfig(), VersionResolveStrategy.MatchingBrowser);
+                        var options = new ChromeOptions();
+                        options.AddArguments("headless");
+                        driver = new ChromeDriver(driverDir, options);
                         driver.Manage().Window.Maximize();
                         return driver;
+
+
+                        //driver = new ChromeDriver(driverPath);
+                        //driver.Manage().Window.Maximize();
+                        //return driver;
 
 
                     case "Firefox":
