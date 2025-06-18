@@ -1,7 +1,5 @@
 # reqnroll-bdd-automation
 
-# reqnroll-c#-bdd
-
 A robust BDD automation framework built with C#, leveraging [Reqnroll](https://reqnroll.net/) (SpecFlow fork), Selenium WebDriver, Page Object Model (POM), Allure reporting, and GitHub Actions CI/CD.
 
 ---
@@ -12,7 +10,7 @@ A robust BDD automation framework built with C#, leveraging [Reqnroll](https://r
 
 - Uses [Reqnroll](https://reqnroll.net/) for Behavior-Driven Development.
 - Write feature files in Gherkin syntax for clear, business-readable test scenarios.
-- Step definitions are implemented in C# for seamless integration with your application logic.
+- Step definitions are implemented in C# for seamless integration with the application logic.
 
 ### 2. Environment Management via Property File
 
@@ -29,7 +27,6 @@ A robust BDD automation framework built with C#, leveraging [Reqnroll](https://r
 
 - Generates rich, interactive test reports using [Allure](https://docs.qameta.io/allure/).
 - Allure is configured via the `Allure.Reqnroll` NuGet package.
-- Reports include step-by-step execution, screenshots, and logs for easy debugging.
 
 ### 5. Logging
 
