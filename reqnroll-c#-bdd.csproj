@@ -45,6 +45,9 @@
     <None Update="Config\LoggerConfigure.xml">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
+    <None Update="resources\environment.properties">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
