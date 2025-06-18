@@ -27,7 +27,7 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
 
-    - name: Load test report history
+    - name: Load Allure test report history
       uses: actions/checkout@v4
       if: always()
       continue-on-error: true
@@ -35,15 +35,14 @@ jobs:
         ref: gh-pages
         path: gh-pages
 
-    - name: Build test report
-      uses: simple-elf/allure-report-action@v1.7
+    - name: Build Allure test report
+      uses: simple-elf/allure-report-action@master
       if: always()
       with:
-        gh_pages: gh-pages
         allure_history: allure-history
-        allure_results: allure-results
+        keep_reports: 20
 
-    - name: Publish test report
+    - name: Publish Allure test report
       uses: peaceiris/actions-gh-pages@v3
       if: always()
       with:
