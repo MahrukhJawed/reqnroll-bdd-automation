@@ -32,8 +32,8 @@ jobs:
       if: always()
       run: |
         echo "Looking for allure-results..."
-        find reqnroll-bdd-automation -type d
-        find reqnroll-bdd-automation -name "allure-results"
+        find . -type d
+        find . -name "allure-results"
 
     - name: Load Allure test report history
       uses: actions/checkout@v4
