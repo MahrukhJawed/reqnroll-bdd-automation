@@ -24,6 +24,13 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
 
+    - name: Debug folder contents
+      run: |
+        echo "Current directory: $(pwd)"
+        echo "Project structure:"
+        find . -name "*.csproj"
+
+
     - name: Test
       run: dotnet test reqnroll-bdd-automation/reqnroll-bdd-automation.csproj --configuration Debug --logger "console;verbosity=diagnostic"
 
