@@ -25,9 +25,9 @@ jobs:
       run: dotnet build --no-restore
 
     - name: Test
-      run: |
-         cd reqnroll-bdd-automation
-         dotnet test --configuration Debug --logger "console;verbosity=diagnostic"
+      run: dotnet test --configuration Debug --logger "console;verbosity=diagnostic"
+
+
 
     - name: Show contents of test output directory
       if: always()
