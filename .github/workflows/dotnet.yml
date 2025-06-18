@@ -47,7 +47,7 @@ jobs:
       if: always()
       run: |
         mkdir -p allure-results
-        cp -r reqnroll-bdd-automation/bin/Debug/net8.0/allure-results/* allure-results/
+        cp -r reqnroll-bdd-automation/bin/Debug/net8.0/allure-results/* allure-results/ || echo "No files to copy"
 
     - name: Build Allure test report
       uses: simple-elf/allure-report-action@master
