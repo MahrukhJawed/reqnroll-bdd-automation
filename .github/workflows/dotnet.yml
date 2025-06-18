@@ -32,7 +32,7 @@ jobs:
 
 
     - name: Test
-      run: dotnet test reqnroll-bdd-automation/reqnroll-bdd-automation.csproj --configuration Debug --logger "console;verbosity=diagnostic"
+      run: dotnet test "./reqnroll-c#-bdd.csproj" --configuration Debug --logger "console;verbosity=diagnostic"
 
 
 
@@ -55,7 +55,7 @@ jobs:
       if: always()
       run: |
         mkdir -p allure-results
-        cp -r reqnroll-bdd-automation/bin/Debug/net8.0/allure-results/* allure-results/ || echo "No files found"
+        cp -r bin/Debug/net8.0/allure-results/* allure-results/ || echo "No files found"
 
 
 
@@ -63,7 +63,7 @@ jobs:
       if: always()
       run: |
         echo "Checking allure-results files:"
-        ls -l reqnroll-bdd-automation/bin/Debug/net8.0/allure-results || echo "Not found"
+        ls -l bin/Debug/net8.0/allure-results || echo "Not found"
 
 
     - name: Build Allure test report
