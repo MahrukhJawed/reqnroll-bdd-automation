@@ -35,6 +35,12 @@ jobs:
         ref: gh-pages
         path: gh-pages
 
+    - name: Move Allure results to expected directory
+      if: always()
+      run: |
+        mkdir -p allure-results
+        cp -r reqnroll-bdd-automation/bin/Debug/net8.0/allure-results/* allure-results/
+
     - name: Build Allure test report
       uses: simple-elf/allure-report-action@master
       if: always()
