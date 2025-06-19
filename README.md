@@ -1,5 +1,5 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/MahrukhJawed/reqnroll-bdd-automation) 
-![Static Badge](https://img.shields.io/badge/selenium%20C%23-Reqnroll-darkblue) ![Static Badge](https://img.shields.io/badge/formerly-Specflow-orange) ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/MahrukhJawed/reqnroll-bdd-automation/latest/total)
+![Static Badge](https://img.shields.io/badge/selenium%20C%23-Reqnroll-darkblue) ![Static Badge](https://img.shields.io/badge/formerly-Specflow-orange) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/MahrukhJawed/reqnroll-bdd-automation/total)
 ![GitHub License](https://img.shields.io/github/license/MahrukhJawed/reqnroll-bdd-automation) ![GitHub forks](https://img.shields.io/github/forks/MahrukhJawed/reqnroll-bdd-automation)
 ![Static Badge](https://img.shields.io/badge/BDD%20Automation%20Framework-red) ![GitHub User's stars](https://img.shields.io/github/stars/MahrukhJawed)
 
