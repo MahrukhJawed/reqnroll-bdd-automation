@@ -30,11 +30,8 @@ jobs:
         echo "Project structure:"
         find . -name "*.csproj"
 
-
     - name: Test
       run: dotnet test "./reqnroll-c#-bdd.csproj" --configuration Debug --logger "console;verbosity=diagnostic"
-
-
 
     - name: Show contents of test output directory
       if: always()
@@ -57,14 +54,11 @@ jobs:
         mkdir -p allure-results
         cp -r bin/Debug/net8.0/allure-results/* allure-results/ || echo "No files found"
 
-
-
     - name: Debug Allure results content
       if: always()
       run: |
         echo "Checking allure-results files:"
         ls -l bin/Debug/net8.0/allure-results || echo "Not found"
-
 
     - name: Build Allure test report
       uses: simple-elf/allure-report-action@master
