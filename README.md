@@ -6,7 +6,7 @@ A robust BDD automation framework built with C#, leveraging [Reqnroll](https://r
 
 ## Key Features
 
-### 1. Reqnroll BDD Framework
+### 1. Reqnroll (formerly Specflow) BDD Framework
 
 - Uses [Reqnroll](https://reqnroll.net/) for Behavior-Driven Development.
 - Write feature files in Gherkin syntax for clear, business-readable test scenarios.
@@ -58,5 +58,7 @@ A robust BDD automation framework built with C#, leveraging [Reqnroll](https://r
 - To view Allure reports on GitHub Pages, 
 1. Navigate to the `gh-pages` branch of the repository after a CI run.
 2. Alternatively, you can access the reports directly from the GitHub Pages URL configured in the repository settings.
-3. ![image](https://github.com/user-attachments/assets/7934b64b-7ed7-44d6-a5a5-4047d44c69e6)
+3. ![image](https://github.com/user-attachments/assets/51c37e9a-378b-4c19-99d4-db802fb58f5c)
+
+4. ![image](https://github.com/user-attachments/assets/7934b64b-7ed7-44d6-a5a5-4047d44c69e6)
 
