@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3523","User can log in with valid credentials","","Mon Jun 23 12:34:29 GMT 2025","passed","Mon Jun 23 12:34:33 GMT 2025","","","",""
+"","4202","User can log out of the app","","Mon Jun 23 12:34:34 GMT 2025","passed","Mon Jun 23 12:34:38 GMT 2025","","","",""
+"","16120","User can update their dob","","Mon Jun 23 12:34:38 GMT 2025","passed","Mon Jun 23 12:34:54 GMT 2025","","","",""
