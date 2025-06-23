@@ -1,0 +1,77 @@
+# This workflow will build a .NET project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-net
+
+name: .NET
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 8.0.x
+    - name: Restore dependencies
+      run: dotnet restore
+
+    - name: Build
+      run: dotnet build --no-restore
+
+    - name: Debug folder contents
+      run: |
+        echo "Current directory: $(pwd)"
+        echo "Project structure:"
+        find . -name "*.csproj"
+
+    - name: Test
+      run: dotnet test "./reqnroll-c#-bdd.csproj" --configuration Debug --logger "console;verbosity=diagnostic"
+
+    - name: Show contents of test output directory
+      if: always()
+      run: |
+        echo "Looking for allure-results..."
+        find . -type d
+        find . -name "allure-results"
+
+    - name: Load Allure test report history
+      uses: actions/checkout@v4
+      if: always()
+      continue-on-error: true
+      with:
+        ref: gh-pages
+        path: gh-pages
+
+    - name: Move Allure results to expected directory
+      if: always()
+      run: |
+        mkdir -p allure-results
+        cp -r bin/Debug/net8.0/allure-results/* allure-results/ || echo "No files found"
+
+    - name: Debug Allure results content
+      if: always()
+      run: |
+        echo "Checking allure-results files:"
+        ls -l bin/Debug/net8.0/allure-results || echo "Not found"
+
+    - name: Build Allure test report
+      uses: simple-elf/allure-report-action@master
+      if: always()
+      with:
+        allure_history: allure-history
+        keep_reports: 20
+
+    - name: Publish Allure test report
+      uses: peaceiris/actions-gh-pages@v3
+      if: always()
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: allure-history
+

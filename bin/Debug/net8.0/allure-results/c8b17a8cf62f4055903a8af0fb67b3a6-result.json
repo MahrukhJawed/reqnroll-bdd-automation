@@ -1,0 +1,115 @@
+{
+  "uuid": "80673508-dd3a-4957-8e67-bdeebe678806",
+  "historyId": "39e3abe16d8598102031866c3ff05489",
+  "testCaseId": "86479744adf64b8e87a1e003d84b32ed",
+  "fullName": "reqnroll-c#-bdd/Features/: My Info Feature/User can update their dob",
+  "labels": [
+    {
+      "name": "host",
+      "value": "TEST-V-ADV-01-I"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.: My Info Feature"
+    },
+    {
+      "name": "feature",
+      "value": ": My Info Feature"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    }
+  ],
+  "links": [],
+  "name": "User can update their dob",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  String lengths are both 10. Strings differ at index 5.\r\n  Expected: \"2000-12-25\"\r\n  But was:  \"2000-25-12\"\r\n  ----------------^\r\n",
+    "trace": "NUnit.Framework.AssertionException:   String lengths are both 10. Strings differ at index 5.\r\n  Expected: \"2000-12-25\"\r\n  But was:  \"2000-25-12\"\r\n  ----------------^\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression)\r\n   at reqnroll_c__bdd.StepDefinitions.MyInfoStep.ThenTheNewDateOfBirthShouldBeSavedSuccessfully() in C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\StepDefinitions\\MyInfoStep.cs:line 52\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at reqnroll_c__bdd.Features.MyInfoFeatureFeature.ScenarioCleanupAsync()\r\n   at reqnroll_c__bdd.Features.MyInfoFeatureFeature.UserCanUpdateTheirDob() in C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\Features\\MyInfo.feature:line 9\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given the user is logged into the app",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750163183924,
+      "stop": 1750163189916
+    },
+    {
+      "name": "When the user updates their date of birth",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750163189917,
+      "stop": 1750163193590
+    },
+    {
+      "name": "When the user clicks on the save button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750163193592,
+      "stop": 1750163205524
+    },
+    {
+      "name": "Then the new date of birth should be saved successfully",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  String lengths are both 10. Strings differ at index 5.\r\n  Expected: \"2000-12-25\"\r\n  But was:  \"2000-25-12\"\r\n  ----------------^\r\n",
+        "trace": "NUnit.Framework.AssertionException:   String lengths are both 10. Strings differ at index 5.\r\n  Expected: \"2000-12-25\"\r\n  But was:  \"2000-25-12\"\r\n  ----------------^\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression)\r\n   at reqnroll_c__bdd.StepDefinitions.MyInfoStep.ThenTheNewDateOfBirthShouldBeSavedSuccessfully() in C:\\Users\\m.jawed-ad\\e2e-automation\\reqnroll-bdd-automation\\StepDefinitions\\MyInfoStep.cs:line 52\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750163205525,
+      "stop": 1750163205559
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1750163183919,
+  "stop": 1750163205567
+}

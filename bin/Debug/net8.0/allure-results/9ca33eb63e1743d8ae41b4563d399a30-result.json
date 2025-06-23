@@ -1,0 +1,106 @@
+{
+  "uuid": "bb0eca2f-c0cb-4430-9764-8f4a89552948",
+  "historyId": "c99c9bd6bea700c9ac7f083bd3aed54d",
+  "testCaseId": "74c814603e141e644a88df748c3379c8",
+  "fullName": "reqnroll-c#-bdd/Features/: Login to the app/User can log in with valid credentials",
+  "labels": [
+    {
+      "name": "host",
+      "value": "TEST-V-ADV-01-I"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.: Login to the app"
+    },
+    {
+      "name": "feature",
+      "value": ": Login to the app"
+    },
+    {
+      "name": "tag",
+      "value": "smoke"
+    }
+  ],
+  "links": [],
+  "name": "User can log in with valid credentials",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given the user is on the login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750151672317,
+      "stop": 1750151676363
+    },
+    {
+      "name": "When the user enters a valid username and password",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750151676364,
+      "stop": 1750151677670
+    },
+    {
+      "name": "When the user clicks the login button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750151677672,
+      "stop": 1750151677759
+    },
+    {
+      "name": "Then the user should be redirected to the dashboard page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1750151677761,
+      "stop": 1750151679298
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1750151672305,
+  "stop": 1750151679302
+}
