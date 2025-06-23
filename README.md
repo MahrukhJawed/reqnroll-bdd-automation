@@ -63,8 +63,12 @@ A robust BDD automation framework built with C#, leveraging [Reqnroll](https://r
 - To view Allure reports on GitHub Pages, 
 1. Navigate to the `gh-pages` branch of the repository after a CI run.
 2. Alternatively, you can access the reports directly from the GitHub Pages URL configured in the repository settings.
-3. ![image](https://github.com/user-attachments/assets/51c37e9a-378b-4c19-99d4-db802fb58f5c)
-4. ![image](https://github.com/user-attachments/assets/7934b64b-7ed7-44d6-a5a5-4047d44c69e6)
-5. ![image](https://github.com/user-attachments/assets/c761cf97-8bfa-4d29-ba23-004678cb54d1)
+3. ![image](https://github.com/user-attachments/assets/04859c01-7c68-4291-9805-f62ab972f0fc)
+4. ![image](https://github.com/user-attachments/assets/69b21d24-4879-4c41-ac1b-536ea301455c)
+5. ![image](https://github.com/user-attachments/assets/012d8ca1-6517-4be7-a05f-374d2d4d7bb5)
+6. ![image](https://github.com/user-attachments/assets/8c56c038-c6fd-466e-8f0a-1b319235228a)
+
+
+
 
 
